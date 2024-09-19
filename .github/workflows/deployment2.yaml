@@ -31,10 +31,12 @@ jobs:
      - name: Build website
        run: npm run build  
      - name: Upload artifacts 
-       - uses: actions/upload-artifact@v4
-         with:
-          name: my-artifact
-           path: dist # or path/to/artifact
+     - uses: actions/upload-artifact@v4
+       with:
+        name: my-artifact
+        path: | 
+          dist
+          package.json
  deploy:
     needs: test
     runs-on: ubuntu-latest
