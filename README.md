@@ -1,9 +1,9 @@
-CI/CD Pipeline with GitHub Actions
+# CI/CD Pipeline with GitHub Actions
 
 This repository contains the configuration for a CI/CD pipeline using GitHub Actions. The pipeline automates building, testing,  ensuring a reliable and efficient development workflow.
 deploying is not configured  in the repository .
 
-##Features
+## Features
 
 Automated Builds: Automatically build the application whenever changes are pushed to the repository.
 
@@ -14,7 +14,7 @@ Deployment: Deploy the application to the designated environment (e.g., staging,
 
 Before using the pipeline, ensure the following:
 
-##Repository Setup:
+## Repository Setup:
 
 The repository must have a .github/workflows directory containing the pipeline YAML configuration files.
 
@@ -109,7 +109,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
-##Customization
+## Customization
 
 You can customize the pipeline to suit your project’s needs:
 
@@ -119,7 +119,7 @@ Configure deployment to multiple environments (e.g., staging, QA, production).
 
 Integrate with third-party tools like CodeCov, SonarQube, or New Relic for additional analysis and monitoring.
 
-##Troubleshooting
+## Troubleshooting
 
 Check the Actions tab in your GitHub repository for logs and details about workflow runs.
 
