@@ -1,4 +1,4 @@
-#CI/CD Pipeline with GitHub Actions
+CI/CD Pipeline with GitHub Actions
 
 This repository contains the configuration for a CI/CD pipeline using GitHub Actions. The pipeline automates building, testing,  ensuring a reliable and efficient development workflow.
 deploying is not configured  in the repository .
