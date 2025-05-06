@@ -2,7 +2,7 @@ import MainContent from './components/MainContent';
 import logo from './assets/images/logo.png';
 
 function App() {
-  const title = 'Learn & Master GitHub Actions';
+  const title = 'Learn & Master GitHub Actions  ';
   return (
     <>
       <header>
